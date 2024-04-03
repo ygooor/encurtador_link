@@ -18,3 +18,13 @@ Route::get('/', [App\Http\Controllers\PrincipalController::class,'principal']);
 Route::get('/contato', [App\Http\Controllers\ContatoController::class,'contato']);
 
 Route::get('/sobre-nos', [App\Http\Controllers\SobreNosController::class,'sobreNos']);
+
+Route::get('/clientes', [App\Http\Controllers\clientesController::class,'clientes']);
+
+Route::get('/forncedores', [App\Http\Controllers\fornecedoresController::class,'fornecedores']);
+
+Route::get('/produtos', [App\Http\Controllers\produtosController::class,'produtos']);
+
+Route::get('/login', [App\Http\Controllers\loginController::class,'login']);
+
+
